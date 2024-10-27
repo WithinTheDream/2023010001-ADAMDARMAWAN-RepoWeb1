@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website Polibang</title>
     <style>
-        /* Gaya CSS sederhana untuk struktur */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -39,6 +38,7 @@
             width: 25%;
             padding: 20px;
             background-color: #e9ecef;
+            text-decoration: none;
         }
         footer {
             margin-top: 20px;
@@ -46,71 +46,53 @@
     </style>
 </head>
 <body>
-
-    <!-- Header -->
     <header>
         <img src="img/Logo Polibang conture.png" alt="Logo Polibang" style="width: 70px;">
         <h1>Politeknik Balekambang</h1>
         <p>Program Studi Rekayasa Perangkat Lunak</p>
     </header>
-
-    <!-- Navigation -->
     <nav>
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="https://www.polibang.ac.id/" target="_blank">Website Polibang</a>
         <a href="#contact">Contact</a>
     </nav>
-
-    <!-- Main Content -->
     <div class="container">
-        <!-- Content -->
         <section>
             <h2>Visi & Misi Prodi RPL</h2>
-            <p><strong>Visi:</strong> Menjadi prodi unggulan dalam bidang teknologi informasi yang menghasilkan lulusan berkualitas.</p>
-            <p><strong>Misi:</strong> Menyediakan pendidikan berkualitas, melakukan penelitian inovatif, dan berkontribusi bagi masyarakat.</p>
+            <p><strong>Visi:</strong> “Menjadi Program Studi Vokasi di bidang Rekayasa Perangkat Lunak Berdaya Saing Global, Profesional dan berjiwa Technopreunership.”</p>
+            <p><strong>Misi:</strong> <br>1. Menyelenggarakan pendidikan vokasi di bidang Teknologi Rekayasa Perangkat Lunak sesuai dengan perkembangan ilmu pengetahuan dan teknologi yang berjiwa Technopreunership.
+                <br> 2. Menyelenggarakan riset-riset di bidang Teknologi Rekayasa Perangkat Lunak yang inovatif, berkualitas dan bermanfaat untuk pengembangan ilmu pengetahuan dan teknologi
+                <br> 3. Meningkatkan kerjasama strategis yang produktif dengan lembaga pendidikan, pemerintahan dan dunia usaha ditingkat nasional dan Internasional dalam mengatasi permasalahan di bidang Teknologi Rekayasa Perangkat Lunak
+                </p>
 
             <h3>Daftar Dosen Prodi RPL</h3>
             <ul>
-                <li>Dosen 1: Nama Lengkap</li>
-                <li>Dosen 2: Nama Lengkap</li>
-                <li>Dosen 3: Nama Lengkap</li>
-                <li>Dosen 4: Nama Lengkap</li>
+                <li>A. Faiq Abror, M.Pd. </li>
+                <li>Indra Kurniawan, M.Kom.</li>
+                <li>Sofia Ulfah, M.Kom.</li>
+                <li>Ahlis Noor Kholili, M.Kom.</li>
+                <li>Kresna Rahma Aji, M.Pd.</li>
+                <li>M. Dliyauddin, M.Kom.</li>
             </ul>
         </section>
-
-        <!-- Sidebar -->
         <aside>
             <h3>Teman Kelas</h3>
             <ul>
-                <li><a href="#" onclick="showFriendInfo('teman1')">Nama Teman 1</a></li>
-                <li><a href="#" onclick="showFriendInfo('teman2')">Nama Teman 2</a></li>
-                <li><a href="#" onclick="showFriendInfo('teman3')">Nama Teman 3</a></li>
-                <li><a href="#" onclick="showFriendInfo('teman4')">Nama Teman 4</a></li>
+                <li><a href="biodata_bagus.html">Bagus</a></li>
+                <li><a href="biodata_zaka.html">Zaka</a></li>
+                <li><a href="biodata_hanip.html">Hanip</a></li>
+                <li><a href="biodata_amba.html">Amba</a></li>
             </ul>
             <div id="friendInfo"></div>
         </aside>
     </div>
 
-    <!-- Footer -->
     <footer>
-        <img src="logo_kecil.png" alt="Logo Kecil" style="width: 50px;">
-        <p>Website ini dibuat oleh [Nama Pembuat]</p>
-        <p>Alamat: Jl. Politeknik No.123, Banjarmasin</p>
+        <img src="img/Logo Polibang conture.png" alt="Logo Kecil" style="width: 30px;">
+        <p>Website ini dibuat oleh Adam</p>
+        <p>	Balekambang Rt 02 Rw 07 Gemiring Lor Nalumsari Jepara 59466</p>
     </footer>
-
-    <!-- JavaScript untuk menampilkan informasi teman -->
-    <script>
-        function showFriendInfo(friend) {
-            const friendInfo = {
-                'teman1': 'Nama Teman 1 - Detail dan Foto',
-                'teman2': 'Nama Teman 2 - Detail dan Foto',
-                'teman3': 'Nama Teman 3 - Detail dan Foto',
-                'teman4': 'Nama Teman 4 - Detail dan Foto'
-            };
-            document.getElementById("friendInfo").innerHTML = friendInfo[friend];
-        }
-    </script>
 
 </body>
 </html>
