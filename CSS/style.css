@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.header {
+    background-image: url('image/Untitled-2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.header .logo img {
+    width: 120px;
+    height: auto;
+    margin-right: 530px;
+}
+
+.header .title {
+    margin-left: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header p {
+    margin: 5px 0 0;
+}
+
+.nav {
+    background-color: #50ca45;
+    overflow: hidden;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav ul li {
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.nav ul li a:hover {
+    background-color: #d4d4d4;
+    border-radius: 5px;
+}
+
+.main-content {
+    display: flex;
+    margin: 20px 0;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    height: 60%;
+    top: 0;
+    left: 0; 
+}
+
+.sidebar h2 {
+    font-size: 18px; 
+    color: #003366; 
+}
+
+.sidebar ul {
+    list-style: none; 
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    color: #000000; /* Warna teks */
+    text-decoration: none; /* Hilangkan garis bawah */
+}
+
+.sidebar ul li a:hover {
+    color: #007bff; /* Warna teks saat hover */
+}
+
+.content {
+    width: 75%;
+    padding: 15px;
+}
+
+.content h2, .content h3 {
+    color: #4dac21;
+}
+
+.content .gallery {
+    display: flex;
+    gap: 10px;
+}
+
+.content .gallery img {
+    width: calc(33.33% - 10px);
+    border: 1px solid #ccc;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #22a333;
+    color: white;
+    margin-top: 20px;
+}
+
